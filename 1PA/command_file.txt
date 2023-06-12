@@ -1,0 +1,16 @@
+# random seed is set to 9098098231
+setState b12 345 678
+maxNodes 20000
+# Code Corectness section
+randomizeState 18
+printState
+solve A-star h1
+solve A-star h2
+solve beam 10
+solve beam 20
+solve beam 30
+randomizeState 75
+printState
+solve A-star h1
+solve A-star h2
+
